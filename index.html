@@ -2,18 +2,20 @@
 <html>
   <head>
     <script src='scripts.js' defer></script>
+    <link rel='stylesheet' href='styles.css'>
   </head>
   <body>
     <h1>Acme Customers VIP</h1>
-    <div>
+    <div id='form'>
       <form id='customerForm'>
         <h2>Customer Input Form</h2>
         <label htmlFor='name'>Name: </label>
-        <input name='name' /><br>
+        <input name='name' /><br />
         <label htmlFor='email'>Email: </label>
-        <input name='email' /><br>
+        <input name='email' /><br />
         <label htmlFor='vip'>IsVIP: </label>
-        <input type='checkbox' name='isVIP' value='vip' />
+        <input type='checkbox' name='isVIP' value='vip' /><br />
+        <button>Create</button>
       </form>
     </div>
     <div id='customers'>
