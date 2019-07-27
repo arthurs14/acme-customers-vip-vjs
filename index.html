@@ -4,7 +4,18 @@
     <script src='scripts.js' defer></script>
   </head>
   <body>
-    <h1>Hello There!</h1>
+    <h1>Acme Customers VIP</h1>
+    <div>
+      <form id='customerForm'>
+        <h2>Customer Input Form</h2>
+        <label htmlFor='name'>Name: </label>
+        <input name='name' /><br>
+        <label htmlFor='email'>Email: </label>
+        <input name='email' /><br>
+        <label htmlFor='vip'>IsVIP: </label>
+        <input type='checkbox' name='isVIP' value='vip' />
+      </form>
+    </div>
     <div id='customers'>
       <ul id='customerList'></ul>
     </div>
